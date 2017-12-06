@@ -1,0 +1,16 @@
+GET http://127.0.0.1:8080/api/contacts HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8080/api/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "id": 5,
+  "firstName": "Goofus D.",
+  "lastName": "Dawg",
+  "email": "g.d.dawg@whoopee.party"
+}
+
+###
+DELETE http://127.0.0.1:8080/api/contacts/3 HTTP/1.1
